@@ -16,6 +16,8 @@ const Chat = () => {
 
   const scrollContainerRef = useRef<HTMLDivElement>(null)
 
+  const apiUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:3001';
+
 
   useEffect(() => {
     if(scrollContainerRef.current){
@@ -46,7 +48,7 @@ const Chat = () => {
     setISLoading(true)
 
     try {
-      const response = await fetch('http://localhost:3001/chat', {
+      const response = await fetch(`${apiUrl}/chat`, {
         method: 'POST',
         headers: {
           'content-Type': 'application/json',
