@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Linkedin} from 'lucide-react'
 import React from 'react'
 
 const Footer = () => {
@@ -12,14 +12,11 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-6">
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://github.com/Esperanzapineda" className="text-muted-foreground hover:text-primary transition-colors">
             <Github size={20} />
           </a>
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/esperanza-pineda-66ba54189/" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin size={20} />
-          </a>
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-            <Mail size={20} />
           </a>
         </div>
 

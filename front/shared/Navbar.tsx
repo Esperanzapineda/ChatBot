@@ -16,25 +16,6 @@ const Navbar = () => {
             </span>
           </div>
         </MenubarMenu>
-        <div className="flex items-center gap-2">
-          <MenubarMenu>
-            <MenubarTrigger className="cursor-pointer hover:text-primary transition-colors">
-              <Link href="#sobre-mi">Sobre mí</Link>
-            </MenubarTrigger>
-          </MenubarMenu>
-          
-          <MenubarMenu>
-            <MenubarTrigger className="cursor-pointer hover:text-primary transition-colors">
-              <Link href="#proyectos">Proyectos</Link>
-            </MenubarTrigger>
-          </MenubarMenu>
-
-          <MenubarMenu>
-            <MenubarTrigger className="bg-primary text-foreground font-bold px-4 py-2 rounded-md hover:bg-primary/90 transition-all cursor-pointer">
-              <Link href="#contacto">Contacto</Link>
-            </MenubarTrigger>
-          </MenubarMenu>
-        </div>
       </Menubar>
     </header>
   )

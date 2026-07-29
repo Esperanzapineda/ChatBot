@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const Hero = () => {
@@ -16,14 +15,6 @@ const Hero = () => {
           preguntas sobre mis habilidades, proyectos y trayectoria en <br />
           tiempo real.
         </p>
-      </section>
-      <section className='flex gap-2 bg-background border-none'>
-        <Button type='submit' className='text-foreground font-bold px-4 py-2 rounded-md hover:bg-primary/90 transition-all cursor-pointer'>
-            Chatear con ESPERANZA
-        </Button>
-        <Button variant='outline' className='text-foreground hover:text-primary'>
-            Ver Demo
-        </Button>
       </section>
     </div>
   )

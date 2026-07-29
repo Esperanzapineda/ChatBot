@@ -6,14 +6,4 @@ export const initialMessages: Message[] = [
         role: 'assistant', 
         content: '¡Hola! Soy ESPERANZA, la asistente virtual. ¿Qué te gustaría saber sobre mi experiencia como desarrolladora Fullstack?' 
     },
-    { 
-        id: 2, 
-        role: 'user', 
-        content: '¿Qué tecnologías dominas para el desarrollo del Backend?' 
-    },
-    { 
-        id: 3, 
-        role: 'assistant', 
-        content: 'Tengo experiencia construyendo APIs robustas utilizando Node.js y Express. También manejo bases de datos relacionales con PostgreSQL y ORMs como Prisma.' 
-    }
   ]
